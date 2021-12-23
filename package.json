@@ -1,7 +1,6 @@
 {
   "name": "desafio-sass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
@@ -16,5 +15,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucianozurlo/desafioSASS/issues"
+  },
+  "homepage": "https://github.com/lucianozurlo/desafioSASS#readme",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
   }
 }
