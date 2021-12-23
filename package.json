@@ -17,9 +17,10 @@
     "url": "https://github.com/lucianozurlo/desafioSASS/issues"
   },
   "homepage": "https://github.com/lucianozurlo/desafioSASS#readme",
-  "description": "",
   "dependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
