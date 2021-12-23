@@ -1,0 +1,53 @@
+a#mouse {
+	display: block;
+	font-size: 1rem;
+	margin: 0 1.5rem;
+	padding: 10px 10px 10px 40px;
+    color: #fff;
+	opacity: .5;
+	border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+	&hover {
+		color: #fff;
+		opacity: 1;
+	}
+	&before {
+		display: block;
+		position: absolute;
+		top: 91vh;
+		left: calc(50vw - 12px);
+		width: 24px;
+		height: 40px;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 12px;
+		content:"";
+		box-sizing: border-box;
+	}
+	&after  {
+		display: block;
+		position: absolute;
+		top: calc(91vh + 10px);
+		left: calc(50vw - 1px);
+		width: 2px;
+		height: 8px;
+		background: rgba(255,255,255,1);
+		border-radius: 1px;
+		content:"";
+		animation-name: scroll;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-delay: 2s;
+		box-sizing: border-box;
+	}
+}
+@keyframes scroll {
+	0% {opacity: 1; height: 8px;}
+	20% {opacity: 1; height: 8px;}
+	30% {transform: translateY(0); opacity: 1; height: 19px;}
+	40% {opacity: 1;}
+	80% {transform: translateY(19px); opacity: 0; height: 0;}
+	81% {transform: translateY(0); opacity: 0; height: 8px;}
+	100% {opacity: 1; height: 8px;}
+}

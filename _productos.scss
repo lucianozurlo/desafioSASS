@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1140px){
+	#productos .content-grid-4 .grid-item.large {
+		height: 33.3333vw !important;
+	}
+}
+@media only screen and (max-width: 960px){
+	#productos .content-grid-4 .grid-item.large {
+		height: 33.33333vw !important;
+	}
+
+}
+@media only screen and (max-width: 768px){
+	#productos {
+		height: 150vw;
+        .content-grid-4 .grid-item.large {
+            height: 50vw !important;
+        }
+	}
+}

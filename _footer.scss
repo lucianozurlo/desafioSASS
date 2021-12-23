@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    background: #fff;
+    color: #325266;
+    z-index: 1;
+    .widget {
+        font-size: 1.3rem;
+        color: #999;
+        text-transform: none;
+        font-style: normal;
+        img {
+            max-height: 6rem;
+        }
+        li {
+            padding-top: 0;
+            border: none;
+            border-color: #eee;
+        }
+    }
+    .social-list {
+        li {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        a {
+            color: #325266;
+            letter-spacing: 0.1rem;
+        }
+        &hover {
+            color: #0f82d8;
+        }
+    }
+    .footer-top {
+        padding-top: 9rem;
+        padding-bottom: 1rem;
+    }
+    .footer-bottom-inner {
+        border-color: #ccc;
+    }
+}
