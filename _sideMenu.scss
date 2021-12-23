@@ -1,4 +1,4 @@
-.side-navigation-wrapper{
+.side-navigation-wrapper {
 	background: transparent;
 	box-shadow: none !important;
     .navigation-hide {
@@ -29,7 +29,7 @@
     font-weight: 300;
     color: #888;
     position: relative;
-    &after {
+    &:after {
         width: 0;
         height: 0.1rem;
         margin-left: 0;

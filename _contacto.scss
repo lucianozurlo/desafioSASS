@@ -6,15 +6,14 @@
 textarea {
     margin-bottom: 3rem;
     background-color: #fff;
-    border: 1px solid #dcecf7;
-	color: #325266;
+    border: 1px solid $colorLight;
+	color: $colorMainBlue;
     font-size: 1.3rem;
     text-transform: none;
     font-weight: normal;
     letter-spacing: 0.1rem;
-    color: #325266;
 }
 textarea {
-    font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', sans-serif;
     min-height: 15rem;
 }

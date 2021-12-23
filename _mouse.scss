@@ -2,18 +2,18 @@ a#mouse {
 	display: block;
 	font-size: 1rem;
 	margin: 0 1.5rem;
-	padding: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 40px;
     color: #fff;
 	opacity: .5;
 	border-bottom: 1px solid transparent;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.1rem;
-	&hover {
+	&:hover#mouse {
 		color: #fff;
 		opacity: 1;
 	}
-	&before {
+	&::before {
 		display: block;
 		position: absolute;
 		top: 91vh;
@@ -25,7 +25,7 @@ a#mouse {
 		content:"";
 		box-sizing: border-box;
 	}
-	&after  {
+	&::after {
 		display: block;
 		position: absolute;
 		top: calc(91vh + 10px);

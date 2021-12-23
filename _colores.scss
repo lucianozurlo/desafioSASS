@@ -1,30 +1,14 @@
-$colorMainBlue: #325266;
-$colorMainDarkblue: #0c1f2d;
-$colorBlue: #004d87;
-$colorLightblue: #0f82d8;
-$colorDarkblue: #173a58;
-$colorLight: #eef9ff;
-
-.color-blue {
-	color: $colorBlue;
-}
-.color-lightblue {
-	color: $colorLightblue;
-}
-.color-darkblue {
-	color: $colorDarkblue
-}
 .bkg-light {
-    background-color: $colorLight;
-    border-color: $colorLight;
+    background-color: $colorUltralight;
+    border-color: $colorUltralight;
 }
 .bkg-blue {
     background-color: $colorBlue;
     border-color: $colorBlue;
 }
 .bkg-lightblue {
-    background-color: $colorLightblue;
-    border-color: $colorLightblue;
+    background-color: $colorUltralightblue;
+    border-color: $colorUltralightblue;
 }
 .bkg-darkblue {
     background-color: $colorDarkblue;
@@ -34,8 +18,17 @@ $colorLight: #eef9ff;
     border-color: $colorBlue;
 }
 .border-lightblue {
-    border-color: $colorLightblue;
+    border-color: $colorUltralightblue;
 }
 .border-darkblue {
-    border-color: $colorDarkblue
+    border-color: $colorDarkblue;
+}
+.color-blue {
+	color: $colorBlue;
+}
+.color-lightblue {
+	color: $colorUltralightblue;
+}
+.color-darkblue {
+	color: $colorDarkblue;
 }

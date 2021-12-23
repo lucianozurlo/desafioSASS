@@ -1,4 +1,4 @@
-body{
+body {
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
@@ -8,22 +8,21 @@ body{
 	background: $colorMainDarkblue;
 }
 a {
-    text-decoration: none;
-    &hover.button.bkg-hover-lightblue {
-        background-color: $colorLightblue;
-        border-color: $colorLightblue;
+    &:hover.button.bkg-hover-lightblue {
+        background-color: $colorUltralightblue;
+        border-color: $colorUltralightblue;
     }
-    &hover.bkg-hover-blue {
-        background-color: #004d87;
-        border-color: #004d87;
+    &:hover.bkg-hover-blue {
+        background-color: $colorBlue;
+        border-color: $colorBlue;
     }
-    &hover.bkg-hover-lightblue {
-        background-color: #0f82d8;
-        border-color: #0f82d8;
+    &:hover.bkg-hover-lightblue {
+        background-color: $colorUltralightblue;
+        border-color: $colorUltralightblue;
     }
-    &hover.bkg-hover-darkblue {
-        background-color: #173a58;
-        border-color: #173a58;
+    &:hover.bkg-hover-darkblue {
+        background-color: $colorDarkblue;
+        border-color: $colorDarkblue;
     }
 }
 h2 {

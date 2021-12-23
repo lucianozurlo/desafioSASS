@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     background: #fff;
-    color: #325266;
+    color: $colorMainBlue;
     z-index: 1;
     .widget {
         font-size: 1.3rem;
@@ -24,11 +24,11 @@
             font-weight: 700;
         }
         a {
-            color: #325266;
+            color: $colorMainBlue;
             letter-spacing: 0.1rem;
-        }
-        &hover {
-            color: #0f82d8;
+            &:hover {
+                color: $colorUltralightblue;
+            }
         }
     }
     .footer-top {
